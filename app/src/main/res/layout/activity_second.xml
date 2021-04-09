@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.zichen.learingtest.customview.ColorTarckTextView
+        android:id="@+id/tarck_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World"
+        app:changeColor="@color/colorPrimary"
+        app:originColor="@color/colorAccent" />
+
+    <Button
+        android:elevation="10dp"
+        android:id="@+id/left_to_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="左-右" />
+
+    <Button
+        android:id="@+id/right_to_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="右-左" />
+
+    <com.zichen.learingtest.customview.CircularProgress
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:border="10dp"
+        app:internalColor="@color/colorAccent"
+        app:outrColor="@color/colorPrimary"
+        app:progressTextColor="@color/colorPrimary"
+        app:progressTextSize="10sp" />
+</LinearLayout>

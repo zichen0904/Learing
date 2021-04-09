@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ColorTarckTextView">
+        <attr name="originColor" format="color" />
+        <attr name="changeColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CircularProgress">
+        <attr name="outrColor" format="color" />
+        <attr name="internalColor" format="color" />
+        <attr name="border" format="dimension" />
+        <attr name="progressTextColor" format="color" />
+        <attr name="progressTextSize" format="dimension" />
+    </declare-styleable>
+
+</resources>
