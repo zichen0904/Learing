@@ -41,6 +41,7 @@ public class SecondActicity extends BaseActivity {
                 animatorLeft.start();
                 break;
             case R.id.right_to_left:
+
                 tarckTextView.setDirection(ColorTarckTextView.Direction.RIGHT_TO_LEFT);
                 ValueAnimator animatorRight = ObjectAnimator.ofFloat(0, 3);
                 animatorRight.setDuration(2000);
